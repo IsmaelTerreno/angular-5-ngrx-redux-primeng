@@ -1,0 +1,22 @@
+language: node_js
+sudo: true
+node_js:
+  - "7"
+
+demo/dist: trusty
+
+branches:
+  only:
+  - master
+
+script:
+  - npm run lint
+  - ng build -bh "https://ahsanayaz.github.io/ng-exercise/" --prod --aot
+
+deploy:
+  provider: pages
+  skip_cleanup: true
+  github_token: $GITHUB_TOKEN # Set in travis-ci.org dashboard
+  local_dir: dist
+  on:
+    branch: master

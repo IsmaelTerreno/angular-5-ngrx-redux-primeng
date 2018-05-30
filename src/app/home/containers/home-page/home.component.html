@@ -1,0 +1,11 @@
+<ng-e-app-header
+  (logInUser)="loginUser($event)"
+  (logOutUser)="logoutUser($event)"
+  [isLoggedIn]="isLoggedIn$"
+  [user]="currentUser$"></ng-e-app-header>
+
+<ng-e-app-content
+  (logInUser)="loginUser($event)"
+  (logOutUser)="logoutUser($event)"
+  [isLoggedIn]="isLoggedIn$"
+  [user]="currentUser$"></ng-e-app-content>

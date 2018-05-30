@@ -1,0 +1,27 @@
+<section class="ui-g">
+  <div class="ui-g-1">
+  </div>
+  <div class="ui-g-10">
+    <div class="progress-bar-working">
+      <p-progressBar *ngIf="isWorking$" mode="indeterminate"></p-progressBar>
+    </div>
+  </div>
+  <div class="ui-g-1">
+  </div>
+</section>
+<section class="ui-g">
+  <div class="ui-g-1">
+  </div>
+  <div class="ui-g-3">
+    <p-button label="Search Users" (onClick)="search()" ></p-button>
+  </div>
+  <div class="ui-g-8">
+  </div>
+  <div class="ui-g-1">
+  </div>
+  <div class="ui-g-10">
+    <ng-e-user-list (userIsSelected)="viewUserDetails($event)" [users]="usersList$"></ng-e-user-list>
+  </div>
+  <div class="ui-g-1">
+  </div>
+</section>

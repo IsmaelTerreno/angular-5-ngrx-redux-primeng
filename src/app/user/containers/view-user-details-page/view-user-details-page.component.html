@@ -1,0 +1,26 @@
+<div class="user-profile-details">
+  <p-card>
+    <div class="ui-g">
+      <div class="ui-g-3"><img class="user-profile-avatar" [src]="imageAvatar$"></div>
+      <div class="ui-g-9">
+        <p>
+          <strong>First Name</strong>: {{userDetails$.name.first | uppercase }}
+        </p>
+        <p>
+          <strong>Last Name</strong>: {{userDetails$.name.last | uppercase }}
+        </p>
+        <p>
+          <strong>Email</strong>: {{userDetails$.email }}
+        </p>
+        <p>
+          <strong>Phone</strong>: {{userDetails$.phone }}
+        </p>
+      </div>
+    </div>
+    <p-footer>
+      <p-button label="Go Back" (onClick)="goBack()" ></p-button>
+    </p-footer>
+  </p-card>
+</div>
+
+

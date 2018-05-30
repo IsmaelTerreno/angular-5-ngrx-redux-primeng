@@ -1,0 +1,17 @@
+<div class="app-header">
+  <div class="logo" routerLink="/">
+    <img src="assets/images/demo_icon.png">
+  </div>
+  <div class="title" routerLink="/">Demo Angular 5 + Redux</div>
+  <div class="profile-dropdown" *ngIf="isLoggedIn">
+    <div class="initials">
+      {{user.name.first.charAt(0)}}{{user.name.last.charAt(0)}}
+    </div>
+  </div>
+  <div class="action-btns" *ngIf="!isLoggedIn">
+    <button class="app-btn" (click)="login()">Login</button>
+  </div>
+  <div class="action-btns" *ngIf="isLoggedIn">
+    <button class="app-btn logout-btn" (click)="logout()">Logout</button>
+  </div>
+</div>
