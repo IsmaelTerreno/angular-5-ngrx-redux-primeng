@@ -6,5 +6,5 @@ The application has implemented the management of Redux states together with Ang
 You can click on the row of the user table and see the detail. As well as a simple login only with the basics (without security).
 
 The url to use are:
-"http: // localhost: 4200 / # / users-list"
-"http: // localhost: 4200 / # / home"
+"http://localhost:4200/#/users-list"
+"http://localhost:4200/#/home"
