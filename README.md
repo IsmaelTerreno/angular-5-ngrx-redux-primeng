@@ -11,3 +11,5 @@ The url to use are:
 
 
 For more details you can go to the routes of the code.
+
+To run the project, just execute "yarn install" and "yarn start"
