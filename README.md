@@ -8,3 +8,6 @@ You can click on the row of the user table and see the detail. As well as a simp
 The url to use are:
 "http://localhost:4200/#/users-list"
 "http://localhost:4200/#/home"
+
+
+For more details you can go to the routes of the code.
