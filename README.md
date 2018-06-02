@@ -12,4 +12,6 @@ The url to use are:
 
 For more details you can go to the routes of the code.
 
+Just to give an idea of the reason of this project, is to show the possibilities we can have when working with redux + Angular 5 so that we can take advantage of the power that both have together, personally I had a lot of fun making this sample of project and I think that many developers can take advantage of it.
+
 To run the project, just execute "yarn install" and "yarn start"
