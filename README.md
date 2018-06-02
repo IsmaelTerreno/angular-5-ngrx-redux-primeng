@@ -1,5 +1,5 @@
 
-# angular-5-redux
+# Angular 5 + redux for state management.
 Simple app Angular Demo that implements the Redux Store to manage state.
 
 The application has implemented the management of Redux states together with Angular 5. Basically it consumes a REST API that brings a list of users, this list as well as all the actions can be seen with chrome "redux dev tools".
